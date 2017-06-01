@@ -1,0 +1,35 @@
+body{
+  background-color:red;
+}
+
+img{
+  height:100%;
+  width:100%;
+}
+
+#content{
+  background-color:gray;
+  text-align: center;
+}
+
+.proj{
+  border:1px solid black;
+  margin:2%;
+  padding:2%;
+  display:block;
+}
+
+.picture{
+  height:100%;
+  width:50%;
+  display
+}
+
+.left-text{
+  float:left;
+
+}
+
+.right-text{
+  float:right;
+}
