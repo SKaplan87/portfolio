@@ -1,7 +1,6 @@
 //I need to close all tabs before the rest. We want only one tab to be open at
 
 $("#about").click(function () {
-
     $header = $(this);
     //getting the next element
     $content = $header.next();
@@ -11,7 +10,7 @@ $("#about").click(function () {
         //change text of header based on visibility of content div
         $header.text(function () {
             //change text based on condition
-            return $content.is(":visible") ? "About -- And Basic CSS" : "About -- And Basic CSS";
+            // return $content.is(":visible") ? "About -- And Basic CSS" : "About -- And Basic CSS";
         });
     });
 
