@@ -5,6 +5,7 @@ body{
 img{
   height:100%;
   width:100%;
+  border:solid 2px black;
 }
 
 #content{
@@ -16,20 +17,30 @@ img{
   border:1px solid black;
   margin:2%;
   padding:2%;
-  display:block;
+  display: inline-block;
 }
 
-.picture{
+.right{
   height:100%;
   width:50%;
-  display
-}
-
-.left-text{
-  float:left;
-
-}
-
-.right-text{
   float:right;
+  display:inline;
+}
+
+.left{
+  height:100%;
+  width:50%;
+  float:left;
+  display:inline;
+}
+
+.proj p{
+font-size:1.5em;
+margin-left:5px;
+margin-right:5px;
+}
+
+.title{
+  font-size:125%;
+  text-decoration: underline;
 }
