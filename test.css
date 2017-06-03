@@ -1,3 +1,16 @@
+body{
+  text-align: center;
+}
+
+ul{
+  text-align:justify;
+  font-size:130%;
+}
+
+p{
+  font-size: 200%;
+}
+
 .container {
     width:100%;
     border:1px solid #d3d3d3;
@@ -5,15 +18,11 @@
 .container div {
     width:100%;
 }
-.container .header {
-    background-color:#d3d3d3;
-    padding: 2px;
-    cursor: pointer;
-    font-weight: bold;
-}
-.container .content {
+
+.content {
     display: none;
     padding : 5px;
+    background-color:red;
 }
 
 .right{
@@ -29,3 +38,18 @@
   float:left;
   display:inline;
 }
+
+.title{
+  background-color: gray;
+  font-size: 200%
+}
+
+img{
+  height:100%;
+}
+
+#about img{
+  height:20px%;
+}
+
+
