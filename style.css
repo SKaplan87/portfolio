@@ -52,10 +52,14 @@ p{
 #headshot{
   height:90%;
   width:auto;
-  padding-top: 10%
+  padding-top:10%;
 }
 
 .social{
   height:8%;
   width:8%;
+}
+
+.builtWith{
+  height:3%;
 }
