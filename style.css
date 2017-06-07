@@ -3,7 +3,7 @@ body{
 }
 
 ul{
-  text-align:justify;
+  align-self:center;
   font-size:130%;
 }
 
@@ -33,7 +33,6 @@ p{
 }
 
 .left{
-  height:50%;
   width:50%;
   float:left;
   display:inline;
@@ -62,5 +61,11 @@ p{
 
 .builtWith{
   height:3%;
+}
+
+.footer{
+  height:3%;
+  clear:both;
+  font-size:150%;
 }
 
